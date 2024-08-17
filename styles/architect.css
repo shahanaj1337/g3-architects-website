@@ -1,0 +1,80 @@
+/* work sans font family google font  */
+
+body{
+    
+    font-family: "Work Sans", sans-serif;
+} 
+/* header related title  */
+header{
+    background-color: #f8f1e9;
+    border: 2px solid black;
+    padding: 50px 240px;
+
+}
+nav{
+    display: flex;
+    text-align:center;
+    justify-content:space-between;
+    
+}
+nav >ul{
+    display: flex;
+    margin: 20px;
+}
+nav li{
+    list-style: none;
+    font-size: 1rem ;
+    font-weight: 500px;
+    margin-right: 30px;
+}
+ul a{
+    text-decoration: none;
+}
+.banner-container{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.banner-title{
+    font-weight: 700px;
+    font-size: 4rem;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+    font-size: 16px;
+    margin:10px;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+.btn-primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    margin: 5px 15px;
+    padding:20px 25px ;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    border: 0;
+    cursor: pointer;
+}
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* tablet or medium devices */
+    @media screen and (minpx-width:576) and (max-width:960px) {
+        header{
+            padding: 50px;
+        }
+        nav{
+            flex-direction: column;
+        }
+    }
