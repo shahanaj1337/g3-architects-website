@@ -35,7 +35,7 @@ ul a{
     max-width: 800px;
     margin: 0 auto;
 }
-.banner-title{
+.scetion-title{
     font-weight: 700px;
     font-size: 4rem;
     color: #131313;
@@ -61,7 +61,7 @@ ul a{
 }
   /* main styles */
       
-  main{
+  .teams-container{
     max-width:1440px;
     margin: 0 auto;
     border: 2px solid red;
