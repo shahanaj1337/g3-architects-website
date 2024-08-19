@@ -92,6 +92,35 @@ ul a{
     color: #FF900E;
     font-size: 700;
  }
+ /* feature styles  */
+ .feature{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+
+ }
+ .feature-content .card{
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px 0px;
+    
+ }
+ .feature .scetion-title{
+   border-left: 5px solid #FF900E;
+   padding-left: 20px;
+ }
+ .ten-years-badge{
+    border: 8px;
+    background: #FF900E;
+    color: #FFFFFF;
+    width: 342px;
+    padding: 40px;
+ }
+ .ten-years-badge h2{
+    
+ }
  /* facts section  */
  .facts{
     border: 3px solid palegreen;
@@ -148,6 +177,7 @@ ul a{
  .sponsor-title{
     margin-bottom: 10px;
  }
+
   
 /* responsive media queries */
 /* mobile devices */
